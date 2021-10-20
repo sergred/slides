@@ -1,4 +1,5 @@
 # slides
+
 A placeholder for interactive slide decks.
 
 ## Dependencies
@@ -17,3 +18,26 @@ sudo apt-get update && sudo apt-get install yarn
 # You may also need development tools to build native addons:
 sudo apt-get install gcc g++ make
 ```
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
